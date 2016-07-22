@@ -24,7 +24,7 @@ namespace Archimedes {
         // Functions
         double evaluate() override;
         ExpressionType* getType() override;
-        std::string print() override;
+        std::string toString() override;
     };
 }
 

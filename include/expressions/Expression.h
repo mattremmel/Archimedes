@@ -20,7 +20,7 @@ namespace Archimedes {
     public:
         virtual double evaluate() = 0;
         virtual ExpressionType getType() = 0;
-        virtual std::string print() =0;
+        virtual std::string toString() =0;
     };
 
 }
