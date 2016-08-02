@@ -54,7 +54,7 @@ TEST(Add, evaluate_zero) {
 }
 
 
-//** Add::getType() **//
+// Add::getType()
 TEST(Add, get_type) {
     // Setup
     Add* add = new Add(nullptr, nullptr);
@@ -67,7 +67,7 @@ TEST(Add, get_type) {
 }
 
 
-//** Add::print() **//
+// Add::print()
 TEST(Add, print_simple) {
     // Setup
     Integer* five = new Integer(5);
