@@ -48,8 +48,6 @@ TEST_INCLUDE := -I$(TEST_FRAM_HEADER)
 
 # Make Targets
 
-main: test
-
 build: $(OBJECTS)
 	@echo " Linking..."
 	@mkdir -p `dirname $(TARGET)`
