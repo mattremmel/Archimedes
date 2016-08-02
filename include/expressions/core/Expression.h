@@ -11,6 +11,7 @@
 
 #include "ExpressionType.h"
 #include <string>
+#include <sstream>
 
 namespace Archimedes {
 
