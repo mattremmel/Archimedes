@@ -51,14 +51,14 @@ TEST_INCLUDE := -I$(TEST_FRAM_HEADER)
 build: $(OBJECTS)
 	@echo " Linking..."
 	@mkdir -p `dirname $(TARGET)`
-	@echo " $(CC) $(CFLAGS) -I$(INCLUDE) $(MRLIB_INCLUDE) $^ $(SOURCE_MAIN) -o $(TARGET)"
-	@$(CC) $(CFLAGS) -I$(INCLUDE) $(MRLIB_INCLUDE) $^ $(SOURCE_MAIN) -o $(TARGET)
+	@echo " $(CC) $(CFLAGS) -I$(INCLUDE) $^ $(SOURCE_MAIN) -o $(TARGET)"
+	@$(CC) $(CFLAGS) -I$(INCLUDE) $^ $(SOURCE_MAIN) -o $(TARGET)
 
 $(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.$(SOURCE_EXT)
 	@echo " Building $^..."
 	@mkdir -p `dirname $@`
-	@echo " $(CC) $(CFLAGS) $(INCLUDE) $(MRLIB_INCLUDE) -c -o $@ $<"
-	@$(CC) $(CFLAGS) $(INCLUDE) $(MRLIB_INCLUDE) -c -o $@ $<
+	@echo " $(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $<"
+	@$(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $<
 
 rebuild: cleanest build
 
@@ -72,8 +72,8 @@ test: $(OBJECTS) $(TEST_OBJECTS)
 $(TEST_BUILD_DIR)/%.o: $(TEST_ROOT)/%.$(TEST_EXT)
 	@echo " Building $^..."
 	@mkdir -p `dirname $@`
-	@echo " $(CC) $(CFLAGS) $(INCLUDE) $(MRLIB_INCLUDE) $(TEST_INCLUDE) -c -o $@ $<"
-	@$(CC) $(CFLAGS) $(INCLUDE) $(MRLIB_INCLUDE) $(TEST_INCLUDE) -c -o $@ $<
+	@echo " $(CC) $(CFLAGS) $(INCLUDE) $(TEST_INCLUDE) -c -o $@ $<"
+	@$(CC) $(CFLAGS) $(INCLUDE) $(TEST_INCLUDE) -c -o $@ $<
 	
 clean:
 	@echo " Cleaning build files..." 
