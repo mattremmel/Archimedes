@@ -41,6 +41,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/arithmetic/Divide.cpp
         src/expressions/arithmetic/Integer.cpp
         src/expressions/arithmetic/Multiply.cpp
+        src/expressions/arithmetic/Negation.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -54,6 +55,7 @@ set(TESTS_SOURCE
         test/expressions/arithmetic/Divide_Tests.cpp
         test/expressions/arithmetic/Integer_Tests.cpp
         test/expressions/arithmetic/Multiply_Tests.cpp
+        test/expressions/arithmetic/Negation_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
