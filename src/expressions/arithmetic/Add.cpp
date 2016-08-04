@@ -10,6 +10,7 @@
 
 using namespace Archimedes;
 
+
 // Constructors
 Add::Add(Expression* lvalue, Expression* rvalue) {
     this->lvalue = lvalue;

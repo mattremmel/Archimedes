@@ -10,8 +10,8 @@
 
 using namespace Archimedes;
 
-// Constructors
 
+// Constructors
 Subtract::Subtract(Expression* lvalue, Expression* rvalue) {
     this->lvalue = lvalue;
     this->rvalue = rvalue;

@@ -10,6 +10,7 @@
 
 using namespace Archimedes;
 
+
 // Constructors
 Constant::Constant(double value) {
     this->value = value;

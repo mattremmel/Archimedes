@@ -10,6 +10,7 @@
 
 using namespace Archimedes;
 
+
 // Constructors
 Negation::Negation(Expression* value) {
     this->value = value;

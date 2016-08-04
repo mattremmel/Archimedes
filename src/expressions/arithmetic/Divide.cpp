@@ -11,6 +11,7 @@
 
 using namespace Archimedes;
 
+
 // Constructors
 Divide::Divide(Expression* lvalue, Expression* rvalue) {
     this->lvalue = lvalue;

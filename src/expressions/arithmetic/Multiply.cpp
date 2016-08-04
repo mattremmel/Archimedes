@@ -10,6 +10,7 @@
 
 using namespace Archimedes;
 
+
 // Constructors
 Multiply::Multiply(Expression* lvalue, Expression* rvalue) {
     this->lvalue = lvalue;

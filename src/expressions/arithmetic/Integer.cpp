@@ -10,8 +10,8 @@
 
 using namespace Archimedes;
 
-// Constructors
 
+// Constructors
 Integer::Integer(int value) {
     this->value = value;
 }
