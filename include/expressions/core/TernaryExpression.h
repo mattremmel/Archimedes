@@ -21,7 +21,7 @@ namespace Archimedes {
 
     public:
         // Destructor
-        ~TernaryExpression() { delete(value); }
+        ~TernaryExpression() { delete(value1); delete(value2); delete(value3); }
     };
 }
 
