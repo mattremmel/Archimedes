@@ -67,8 +67,8 @@ TEST(Add, get_type) {
 }
 
 
-// Add::print()
-TEST(Add, print_simple) {
+// Add::toString()
+TEST(Add, to_string_simple) {
     // Setup
     Integer* five = new Integer(5);
     Integer* ten = new Integer(10);

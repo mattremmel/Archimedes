@@ -50,7 +50,7 @@ TEST(Integer, get_type) {
 
 
 // Integer::toString()
-TEST(Integer, print_positive) {
+TEST(Integer, to_string_positive) {
     // Setup
     Integer* x = new Integer(5);
 
@@ -61,7 +61,7 @@ TEST(Integer, print_positive) {
     delete(x);
 }
 
-TEST(Integer, print_negative) {
+TEST(Integer, to_string_negative) {
     // Setup
     Integer* x = new Integer(-5);
 

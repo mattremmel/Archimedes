@@ -23,7 +23,7 @@ double Add::evaluate() {
 }
 
 ExpressionType Add::getType() {
-    return ExpressionType ::Add_;
+    return ExpressionType::Add_;
 }
 
 std::string Add::toString() {
