@@ -57,7 +57,7 @@ build: $(OBJECTS)
 $(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.$(SOURCE_EXT)
 	@echo " Building $^..."
 	@mkdir -p `dirname $@`
-	@echo " $(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $<"
+#	@echo " $(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $<"
 	@$(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $<
 
 rebuild: cleanest build
@@ -72,7 +72,7 @@ test: $(OBJECTS) $(TEST_OBJECTS)
 $(TEST_BUILD_DIR)/%.o: $(TEST_ROOT)/%.$(TEST_EXT)
 	@echo " Building $^..."
 	@mkdir -p `dirname $@`
-	@echo " $(CC) $(CFLAGS) $(INCLUDE) $(TEST_INCLUDE) -c -o $@ $<"
+#	@echo " $(CC) $(CFLAGS) $(INCLUDE) $(TEST_INCLUDE) -c -o $@ $<"
 	@$(CC) $(CFLAGS) $(INCLUDE) $(TEST_INCLUDE) -c -o $@ $<
 	
 clean:
