@@ -9,7 +9,7 @@
 #ifndef ARCHIMEDES_LOGICALXOR_H
 #define ARCHIMEDES_LOGICALXOR_H
 
-#include "LogicalXor.h"
+#include "BinaryExpression.h"
 
 namespace Archimedes {
 
