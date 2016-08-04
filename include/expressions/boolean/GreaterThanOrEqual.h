@@ -14,6 +14,7 @@
 namespace Archimedes {
 
     class GreaterThanOrEqual : public BinaryExpression {
+    public:
         // Constructors
         GreaterThanOrEqual(Expression* lvalue, Expression* rvalue);
 
