@@ -37,6 +37,7 @@ set(HEADERS_ALL
 # Source
 set(SOURCE_EXPRESSIONS
         src/expressions/arithmetic/Add.cpp
+        src/expressions/arithmetic/Constant.cpp
         src/expressions/arithmetic/Integer.cpp
         )
 set(SOURCE_ALL
@@ -47,6 +48,7 @@ set(SOURCE_ALL
 # Testing
 set(TESTS_SOURCE
         test/expressions/arithmetic/Add_Tests.cpp
+        test/expressions/arithmetic/Constant_Tests.cpp
         test/expressions/arithmetic/Integer_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
