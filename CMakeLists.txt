@@ -47,6 +47,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/boolean/GreaterThan.cpp
         src/expressions/boolean/GreaterThanOrEqual.cpp
         src/expressions/boolean/IfThenElse.cpp
+        src/expressions/boolean/LessThan.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -66,6 +67,7 @@ set(TESTS_SOURCE
         test/expressions/boolean/GreaterThan_Tests.cpp
         test/expressions/boolean/GreaterThanOrEqual_Tests.cpp
         test/expressions/boolean/IfThenElse_Tests.cpp
+        test/expressions/boolean/LessThan_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
