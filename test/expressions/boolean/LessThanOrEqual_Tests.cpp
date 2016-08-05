@@ -68,7 +68,7 @@ TEST(LessThanOrEqual, get_type) {
 
 
 // LessThanOrEqual::toString()
-TEST(LessThanOrEqual, print_simple) {
+TEST(LessThanOrEqual, to_string_simple) {
     // Setup
     Integer* five = new Integer(5);
     Integer* ten = new Integer(10);

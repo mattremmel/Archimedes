@@ -81,7 +81,7 @@ TEST(LogicalOr, get_type) {
 
 
 // LogicalOr::toString()
-TEST(LogicalOr, print_simple) {
+TEST(LogicalOr, to_string_simple) {
     // Setup
     Integer* zero = new Integer(0);
     Integer* one = new Integer(1);
