@@ -58,6 +58,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/exponential/Logarithm.cpp
         src/expressions/exponential/NRoot.cpp
         src/expressions/exponential/Power.cpp
+        src/expressions/exponential/SquareRoot.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -88,6 +89,7 @@ set(TESTS_SOURCE
         test/expressions/exponential/Logarithm_Tests.cpp
         test/expressions/exponential/NRoot_Tests.cpp
         test/expressions/exponential/Power_Tests.cpp
+        test/expressions/exponential/SquareRoot_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
