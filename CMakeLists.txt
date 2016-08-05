@@ -53,6 +53,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/boolean/LogicalNot.cpp
         src/expressions/boolean/LogicalOr.cpp
         src/expressions/boolean/LogicalXor.cpp
+        src/expressions/exponential/Exponential.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -78,6 +79,7 @@ set(TESTS_SOURCE
         test/expressions/boolean/LogicalNot_Tests.cpp
         test/expressions/boolean/LogicalOr_Tests.cpp
         test/expressions/boolean/LogicalXor_Tests.cpp
+        test/expressions/exponential/Exponential_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
