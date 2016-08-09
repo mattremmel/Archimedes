@@ -19,7 +19,7 @@ namespace Archimedes {
 
         // Functions
         double evaluate() override;
-        ExpressionsType getType() override;
+        ExpressionType getType() override;
         std::string toString() override;
     };
 }
