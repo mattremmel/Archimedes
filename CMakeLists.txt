@@ -60,6 +60,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/exponential/Power.cpp
         src/expressions/exponential/SquareRoot.cpp
         src/expressions/squashing/ErrorFunction.cpp
+        src/expressions/squashing/ErrorFunctionComplement.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -92,6 +93,7 @@ set(TESTS_SOURCE
         test/expressions/exponential/Power_Tests.cpp
         test/expressions/exponential/SquareRoot_Tests.cpp
         test/expressions/squashing/ErrorFunction_Tests.cpp
+        test/expressions/squashing/ErrorFunctionComplement_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
