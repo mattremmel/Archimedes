@@ -66,6 +66,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/squashing/LogisticFunction.cpp
         src/expressions/squashing/SignFunction.cpp
         src/expressions/squashing/StepFunction.cpp
+        src/expressions/trigonometric/Arccosine.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -104,6 +105,7 @@ set(TESTS_SOURCE
         test/expressions/squashing/LogisticFunction_Tests.cpp
         test/expressions/squashing/SignFunction_Test.cpp
         test/expressions/squashing/StepFunction_Tests.cpp
+        test/expressions/trigonometric/Arccosine_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
