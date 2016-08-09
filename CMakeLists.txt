@@ -71,6 +71,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/trigonometric/Arctangent.cpp
         src/expressions/trigonometric/Arctangent2.cpp
         src/expressions/trigonometric/Cosine.cpp
+        src/expressions/trigonometric/Sine.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -114,6 +115,7 @@ set(TESTS_SOURCE
         test/expressions/trigonometric/Arctangent_Tests.cpp
         test/expressions/trigonometric/Arctangent2_Tests.cpp
         test/expressions/trigonometric/Cosine_Tests.cpp
+        test/expressions/trigonometric/Sine_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
