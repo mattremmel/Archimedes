@@ -12,8 +12,8 @@ using namespace Archimedes;
 
 
 // Constructors
-StepFunction::StepFunction(Expression* node) {
-    this->value = node;
+StepFunction::StepFunction(Expression* value) {
+    this->value = value;
 }
 
 

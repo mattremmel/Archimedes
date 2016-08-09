@@ -13,8 +13,8 @@ using namespace Archimedes;
 
 
 // Constructors
-GaussianFunction::GaussianFunction(Expression* node) {
-    this->value = node;
+GaussianFunction::GaussianFunction(Expression* value) {
+    this->value = value;
 }
 
 

@@ -13,8 +13,8 @@ using namespace Archimedes;
 
 
 // Constructors
-LogisticFunction::LogisticFunction(Expression* node) {
-    this->value = node;
+LogisticFunction::LogisticFunction(Expression* value) {
+    this->value = value;
 }
 
 

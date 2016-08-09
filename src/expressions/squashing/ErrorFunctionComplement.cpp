@@ -13,8 +13,8 @@ using namespace Archimedes;
 
 
 // Constructors
-ErrorFunctionComplement::ErrorFunctionComplement(Expression* node) {
-    this->value = node;
+ErrorFunctionComplement::ErrorFunctionComplement(Expression* value) {
+    this->value = value;
 }
 
 

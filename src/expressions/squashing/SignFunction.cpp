@@ -12,8 +12,8 @@ using namespace Archimedes;
 
 
 // Constructors
-SignFunction::SignFunction(Expression* node) {
-    this->value = node;
+SignFunction::SignFunction(Expression* value) {
+    this->value = value;
 }
 
 

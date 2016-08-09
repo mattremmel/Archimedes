@@ -13,8 +13,8 @@ using namespace Archimedes;
 
 
 // Constructors
-HyperbolicTangent::HyperbolicTangent(Expression* node) {
-    this->value = node;
+HyperbolicTangent::HyperbolicTangent(Expression* value) {
+    this->value = value;
 }
 
 
