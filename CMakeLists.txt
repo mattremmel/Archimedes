@@ -62,6 +62,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/squashing/ErrorFunction.cpp
         src/expressions/squashing/ErrorFunctionComplement.cpp
         src/expressions/squashing/GaussianFunction.cpp
+        src/expressions/squashing/HyperbolicTangent.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -96,6 +97,7 @@ set(TESTS_SOURCE
         test/expressions/squashing/ErrorFunction_Tests.cpp
         test/expressions/squashing/ErrorFunctionComplement_Tests.cpp
         test/expressions/squashing/GaussianFunction_Tests.cpp
+        test/expressions/squashing/HyperbolicTangent_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
