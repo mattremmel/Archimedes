@@ -79,6 +79,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/utility/Maximum.cpp
         src/expressions/utility/Minimum.cpp
         src/expressions/utility/Modulo.cpp
+        src/expressions/utility/Round.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -130,6 +131,7 @@ set(TESTS_SOURCE
         test/expressions/utility/Maximum_Tests.cpp
         test/expressions/utility/Minimum_Tests.cpp
         test/expressions/utility/Modulo_Tests.cpp
+        test/expressions/utility/Round_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
