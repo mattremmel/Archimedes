@@ -55,7 +55,7 @@ build: $(OBJECTS)
 	@$(CC) $(CFLAGS) -I$(INCLUDE) $^ $(SOURCE_MAIN) -o $(TARGET)
 
 $(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.$(SOURCE_EXT)
-	@echo " Building $^..."
+	@echo " Building $^"
 	@mkdir -p `dirname $@`
 #	@echo " $(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $<"
 	@$(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $<
@@ -70,7 +70,7 @@ test: $(OBJECTS) $(TEST_OBJECTS)
 	@./$(TEST_TARGET)
 	
 $(TEST_BUILD_DIR)/%.o: $(TEST_ROOT)/%.$(TEST_EXT)
-	@echo " Building $^..."
+	@echo " Building $^"
 	@mkdir -p `dirname $@`
 #	@echo " $(CC) $(CFLAGS) $(INCLUDE) $(TEST_INCLUDE) -c -o $@ $<"
 	@$(CC) $(CFLAGS) $(INCLUDE) $(TEST_INCLUDE) -c -o $@ $<
