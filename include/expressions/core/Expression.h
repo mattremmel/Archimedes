@@ -16,14 +16,12 @@
 namespace Archimedes {
 
     class Expression {
-    private:
-
     public:
         virtual double evaluate() = 0;
         virtual ExpressionType getType() = 0;
-        virtual std::string toString() =0;
+        virtual std::string toString() = 0;
+        virtual ~Expression() { }
     };
-
 }
 
 #endif //ARCHIMEDES_EXPRESSION_H
