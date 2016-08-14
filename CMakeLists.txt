@@ -77,6 +77,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/utility/Ceiling.cpp
         src/expressions/utility/Floor.cpp
         src/expressions/utility/Maximum.cpp
+        src/expressions/utility/Minimum.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -126,6 +127,7 @@ set(TESTS_SOURCE
         test/expressions/utility/Ceiling_Tests.cpp
         test/expressions/utility/Floor_Tests.cpp
         test/expressions/utility/Maximum_Tests.cpp
+        test/expressions/utility/Minimum_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
