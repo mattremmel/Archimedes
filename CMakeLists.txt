@@ -75,6 +75,7 @@ set(SOURCE_EXPRESSIONS
         src/expressions/trigonometric/Tangent.cpp
         src/expressions/utility/AbsoluteValue.cpp
         src/expressions/utility/Ceiling.cpp
+        src/expressions/utility/Floor.cpp
         )
 set(SOURCE_ALL
         ${SOURCE_EXPRESSIONS}
@@ -122,6 +123,7 @@ set(TESTS_SOURCE
         test/expressions/trigonometric/Tangent_Tests.cpp
         test/expressions/utility/AbsoluteValue_Tests.cpp
         test/expressions/utility/Ceiling_Tests.cpp
+        test/expressions/utility/Floor_Tests.cpp
         )
 set(TEST_FRAMEWORK_HEADERS
         lib/googletest-1.7.0
